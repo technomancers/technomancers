@@ -5,8 +5,8 @@ on:
       - "v*"
 
 jobs:
-  stage:
-    name: Stage
+  release:
+    name: Release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
